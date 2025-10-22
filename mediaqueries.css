@@ -53,7 +53,7 @@
     height: 30vh;
     padding-top: 0;
   }
-  .section__pic-container{
+  #about .section__pic-container{
     display: none;
   }
   #profile {
