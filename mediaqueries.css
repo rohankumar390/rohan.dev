@@ -50,10 +50,14 @@
 @media screen and (max-width: 600px) {
   #contact,
   footer {
-    height: 40vh;
+    height: 30vh;
+    padding-top: 0;
+  }
+  .section__pic-container{
+    display: none;
   }
   #profile {
-    height: 83vh;
+    height: unset;
     margin-bottom: 0;
   }
   article {
@@ -69,7 +73,7 @@
     flex-wrap: wrap;
   }
   .contact-info-container {
-    margin: 0;
+    margin: 4px;
   }
   .contact-info-container p,
   .nav-links li a {
